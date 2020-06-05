@@ -58,5 +58,6 @@ workflows:
               only:
                 - master
         - publish-docker:
-            requires: client-build-and-test
-            requires: server-build-and-test
+            requires: 
+              - client-build-and-test
+              - server-build-and-test
