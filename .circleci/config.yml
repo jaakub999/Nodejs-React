@@ -52,7 +52,7 @@ workflows:
             branches:
               only:
                 - master
-        - server-build-and test:
+        - server-build-and-test:
           filters:
             branches:
               only:
