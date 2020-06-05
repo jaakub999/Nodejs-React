@@ -42,5 +42,3 @@ workflows:
       jobs:
         - build-and-test
         - publish-docker
-            requires:
-              - build-and-test
